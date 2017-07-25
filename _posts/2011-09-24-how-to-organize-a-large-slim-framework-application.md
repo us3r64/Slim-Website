@@ -27,10 +27,10 @@ app/
     vendor/
     lib/
     data/
-public_html/
 {% endhighlight %}
 
-Contains the Slim Framework’s .htaccess and index.php. files. The index.php file is where you instantiate and run your Slim Framework application. Public assets (stylesheets, images, and scripts) are in this directory, too.
+`public_html/`
+:   Contains the Slim Framework’s .htaccess and index.php. files. The index.php file is where you instantiate and run your Slim Framework application. Public assets (stylesheets, images, and scripts) are in this directory, too.
 
 `app/`
 :   Contains the application’s code that should not be available in the public document root.
